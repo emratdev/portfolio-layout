@@ -6,6 +6,10 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css  " />
+
+    <link rel="icon" type="image/x-icon" href="./img//favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img//favicons/apple-touch-icon.png">
   </head>
   <body>
     <header class="header">
@@ -15,8 +19,7 @@
             src="./img/photo.jpg"
             srcset="./img/photo@2x.jpg 2x"
             alt="photo"
-            class="header-img"
-          />
+            class="header-img"/>
 
           <div class="header-desc">
             <h1 class="header-title">Emrat Mir</h1>
@@ -27,22 +30,26 @@
             </p>
 
             <div class="header-btns">
-              <a href="#" class="btn">Portfolio</a>
-              <a href="#" class="btn-outline">Vkontakte</a>
+              <a href="#portfolio" class="btn">Portfolio</a>
+              <a href="#contacts" class="btn-outline">Contacts</a>
             </div>
           </div>
         </div>
       </div>
+      <video class="header-video" autoplay muted loop>
+        <source type="video/mp4" src="./video/854053-hd_1280_720_25fps.mp4 ">
+
+      </video>
     </header>
 
     <main>
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Portfolio</h2>
 
           <div class="projects">
             <article class="project">
-              <a href="#">
+              <a href="./panta.html">
                 <img
                   src="./img/portfolio/project-01.jpg"
                   srcset="./img/portfolio/project-01@2x.jpg 2x"
@@ -52,12 +59,12 @@
               </a>
 
               <h3 class="project-title">
-                Furniture website <a href="#!"></a>
+                Furniture website <a href="./panta.html"></a>
               </h3>
             </article>
 
             <article class="project">
-              <a href="#">
+              <a href="./gotravel.html">
                 <img
                   src="./img/portfolio/project-02.jpg"
                   srcset="./img/portfolio/project-02@2x.jpg 2x"
@@ -72,7 +79,7 @@
             </article>
 
             <article class="project">
-              <a href="#">
+              <a href="./lofthouse.html">
                 <img
                   src="./img/portfolio/project-03.jpg"
                   srcset="./img/portfolio/project-03@2x.jpg 2x"
@@ -90,7 +97,7 @@
       </section>
 
 
-      <section class="contacts">
+      <section class="contacts" id="contacts">
         <div class="container">
           <h2 class="contacts-title">Contacts</h2>
 
@@ -113,5 +120,16 @@
         </div>
       </section>
     </main>
+
+    <div class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <p>Emrat Mir <br> Web developer, creating websites</p>
+        </div>
+      </div>
+      
+    </div>
+    
   </body>
 </html>
+ 
